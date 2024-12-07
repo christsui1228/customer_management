@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+]
+dependencies = ["fastapi>=0.115.5", "uvicorn>=0.32.1", "tree>=0.2.4", "sqlmodel>=0.0.22", "asyncpg>=0.30.0", "typer[all]>=0.13.1", "pydantic-settings>=2.6.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
